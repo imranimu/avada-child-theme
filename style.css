@@ -1,0 +1,634 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+/*
+@font-face {
+    font-family: 'cabinregular';
+    src: url('cabin-regular/cabin-regular-webfont.eot');
+    src: url('cabin-regular/cabin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cabin-regular/cabin-regular-webfont.woff2') format('woff2'),
+         url('cabin-regular/cabin-regular-webfont.woff') format('woff'),
+         url('cabin-regular/cabin-regular-webfont.ttf') format('truetype'),
+         url('cabin-regular/cabin-regular-webfont.svg#cabinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cabinsemibold';
+    src: url('cabin-semibold/cabin-semibold-webfont.eot');
+    src: url('cabin-semibold/cabin-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cabin-semibold/cabin-semibold-webfont.woff2') format('woff2'),
+         url('cabin-semibold/cabin-semibold-webfont.woff') format('woff'),
+         url('cabin-semibold/cabin-semibold-webfont.ttf') format('truetype'),
+         url('cabin-semibold/cabin-semibold-webfont.svg#cabinsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600');
+*/
+
+@font-face {
+   font-family: 'gotham_blackregular'; 
+    src: url('fonts/gotham-black-webfont.eot');
+    src: url('fonts/gotham-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-black-webfont.woff2') format('woff2'),
+         url('fonts/gotham-black-webfont.woff') format('woff'),
+         url('fonts/gotham-black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gotham_boldregular';
+    src: url('fonts/gotham-bold-webfont.eot');
+    src: url('fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-bold-webfont.woff2') format('woff2'),
+         url('fonts/gotham-bold-webfont.woff') format('woff'),
+         url('fonts/gotham-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gotham_lightregular';
+    src: url('fonts/gotham-light-webfont.eot');
+    src: url('fonts/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-light-webfont.woff2') format('woff2'),
+         url('fonts/gotham-light-webfont.woff') format('woff'),
+         url('fonts/gotham-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gotham_lightitalic';
+    src: url('fonts/gotham-lightitalic-webfont.eot');
+    src: url('fonts/gotham-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/gotham-lightitalic-webfont.woff') format('woff'),
+         url('fonts/gotham-lightitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gotham_mediumregular';
+    src: url('fonts/gotham-medium-webfont.eot');
+    src: url('fonts/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-medium-webfont.woff2') format('woff2'),
+         url('fonts/gotham-medium-webfont.woff') format('woff'),
+         url('fonts/gotham-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gotham_mediumitalic';
+    src: url('fonts/gotham-mediumitalic-webfont.eot');
+    src: url('fonts/gotham-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/gotham-mediumitalic-webfont.woff') format('woff'),
+         url('fonts/gotham-mediumitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_thinregular';
+    src: url('fonts/gotham-thin-webfont.eot');
+    src: url('fonts/gotham-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-thin-webfont.woff2') format('woff2'),
+         url('fonts/gotham-thin-webfont.woff') format('woff'),
+         url('fonts/gotham-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gotham_thinitalic';
+    src: url('fonts/gotham-thinitalic-webfont.eot');
+    src: url('fonts/gotham-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-thinitalic-webfont.woff2') format('woff2'),
+         url('fonts/gotham-thinitalic-webfont.woff') format('woff'),
+         url('fonts/gotham-thinitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gotham_extralightregular';
+    src: url('fonts/gotham-xlight-webfont.eot');
+    src: url('fonts/gotham-xlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-xlight-webfont.woff2') format('woff2'),
+         url('fonts/gotham-xlight-webfont.woff') format('woff'),
+         url('fonts/gotham-xlight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_extralightitalic';
+    src: url('fonts/gotham-xlightitalic-webfont.eot');
+    src: url('fonts/gotham-xlightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-xlightitalic-webfont.woff2') format('woff2'),
+         url('fonts/gotham-xlightitalic-webfont.woff') format('woff'),
+         url('fonts/gotham-xlightitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_bookitalic';
+    src: url('gotham-bookitalic-webfont.eot');
+    src: url('fonts/gotham-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-bookitalic-webfont.woff2') format('woff2'),
+         url('fonts/gotham-bookitalic-webfont.woff') format('woff'),
+         url('fonts/gotham-bookitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.displayHidden{display: none!important;}
+.post-content .gantry-width-spacer {color: #8B8B8B;}
+.post-content .dmy-title {display: table;margin-bottom: 20px;text-align: left;}
+.post-content .dmy-title>img {display: table-cell;width: 50px;height: 50px;}
+.post-content .dmy-title>h2 {
+	display: table-cell;
+	padding-left: 10px!important;
+	vertical-align: bottom!important;
+	font-size: 25px!important;
+    line-height: 1!important;
+	font-family: 'cabinsemibold', Verdana, Helvetica, Arial, sans-serif!important;
+    font-weight: regular!important;
+    color: #8B8B8B!important;
+	}
+.post-content .gantry-width-spacer>p {
+    text-align: justify;
+    /*font-size: 18px;
+    line-height: 29px!important;*/
+    /*text-align: left;*/
+    line-height: 26px!important;
+    font-size: 16px!important;
+    font-family: 'cabinregular', Verdana, Helvetica, Arial, sans-serif!important;
+	}
+.fusion-fullwidth-3.videoBackground{display: none;}
+.searchform.subscribeForm .search-table .search-button input[type="submit"]{font-size: 12px;width: 100px!important;text-transform: uppercase;}
+
+/*tab styles*/
+.tabContainer{font-size: 16px;color: #6e6e6e;font-family: 'cabinregular', Verdana, Helvetica, Arial, sans-serif;}
+.tabContainer ol li,
+.post-content .tabContainer p{font-size: 16px;font-weight: normal;}
+.tabContainer p{}
+.tabContainer p strong{font-size: 16px;}
+.tabContainer ol{}
+.tabContainer ol li{}
+.tabContainer ul{margin-bottom: 20px;padding: 0 0 0 17px;margin-top: 9px;}
+.tabContainer ul li{
+    margin-top: 9px;
+    list-style-image: url('./images/course_bullet.png');
+    list-style-position: outside;
+    list-style-type: circle;
+}
+.tabContainer.fusion-tabs .nav-tabs > li .fusion-tab-heading{font-family: 'cabinregular', Verdana, Helvetica, Arial, sans-serif;font-weight: normal;font-size: 16px;}
+.spr-tr-toolbar {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    /*padding-top: 15px;*/
+}
+div.itemHeader h2.itemTitle {
+	font-size: 26px!important;
+    color: rgb(110, 110, 110)!important;
+	font-family: 'cabinregular', Verdana, Helvetica, Arial, sans-serif!important;
+}
+.spr-course-duration {
+    color: #a62420;
+    font-weight: bold;
+    font-size: 16px;
+}
+.spr-tr-toolbar-section > div {
+    display: inline-block;
+    margin-right: 10px;
+}
+.spr-tr-toolbar-right {
+    float: right;
+}
+.spr-tr-toolbar-section {
+    margin-top: 15px;
+}
+.spr-tr-toolbar-left {
+    float: left;
+}
+a.spr-tr-btn-url {
+    color: #6e6e6e;
+    font-weight: normal;
+}
+div.itemAttachmentsBlock {
+    padding: 4px;
+    border-bottom: 1px dotted #ccc;
+}
+div.itemAttachmentsBlock span {
+    font-weight: bold;
+    color: #555;
+    padding: 0 4px 0 0;
+}
+div.itemAttachmentsBlock ul.itemAttachments {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+div.itemAttachmentsBlock ul.itemAttachments li {
+    display: inline;
+    list-style: none;
+    padding: 0 4px;
+    margin: 0;
+    text-align: center;
+}
+#trainingTab{margin-bottom: 0!important;}
+div.itemAttachmentsBlock ul.itemAttachments li a{color: #a62420;font-weight: normal;}
+div.itemAttachmentsBlock ul.itemAttachments li a:hover{color: #000;}
+
+
+/*9 oct 2018*/
+
+.slider-learning-button {	margin-top: 30px; }
+
+.slider-learning-button a, .slider-learning-button a:hover {
+	color: #fff !important;
+}
+.slider-safe-sub-heading.ls-layer {
+	max-width: 420px;
+}
+.ls-wrapper h1 { color:#ea9a0e !important;  text-align:center;   }
+
+.leading-safe-heading
+{
+color:#ea9a0e !important;  
+font-family: 'gotham_thinregular' !important;
+letter-spacing:2px;
+}
+.leading-safe-heading strong {
+ font-family: 'gotham_blackregular' !important; 
+}
+.leading-safe-sub-heading
+{
+ /*font-family: 'gotham_lightregular';*/
+ text-align:center; 
+ letter-spacing: 1px !important;
+}
+.slider-book-now-button {
+	text-align: center;
+	border: 1px solid #fff !important;
+	text-transform: uppercase;
+	font-size: 16px !important;
+	width: 90px !important;
+}
+.slider-book-now-button a
+{
+    border:1px solid #fff; 
+    padding:20px 40px; 
+    text-transform:uppercase; 
+    text-align:center; 
+    font-size:16px;
+    color:#fff; 
+}
+.slider-book-now-button a:hover
+{
+    border:1px solid #fff;
+    color:#fff;
+}
+
+.home .fusion-layout-column 
+{
+margin-bottom: 0 !important;
+}
+.slider-learning-button.ls-layer {
+	position: absolute !important;
+	top: 40px !important;
+	left: 0 !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+     
+.leading-safe-heading {
+    font-size: 35px !important;
+}
+.slider-book-now-button a {
+	padding: 10px 30px;
+	font-size: 14px;
+}
+.Home-slide-main #layerslider_12, .Home-slide-main .ls-wrapper {
+
+    height: 390px !important;
+
+}
+.slider-safe-main-heading.ls-layer {
+	top: -70px !important;
+	position: absolute !important;
+	left: 0 !important;
+}
+.slider-safe-sub-heading.ls-layer {
+	position: absolute !important;
+	top:-71px !important;
+	left: 0 !important;
+	width: 500px !important;
+}
+.slider-learning-button.ls-layer {
+	position: absolute !important;
+	top: -40px !important;
+	left: 0 !important;
+}
+.Home-slide-main .ls-container .ls-layers > .ls-hide-on-tablet { 
+    display:block !important;
+    }
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 991px) 
+
+{
+.leading-safe-heading {
+	font-size: 24px !important;
+}
+.slider-book-now-button a {
+	padding: 10px 30px;
+	font-size: 14px;
+}
+.slider-safe-sub-heading
+{
+    width:370px;
+}
+.Home-slide-main #layerslider_12, .Home-slide-main .ls-wrapper {
+
+    height: 280px !important;
+
+}
+.slider-safe-main-heading.ls-layer {
+	top: -50px !important;
+	position: absolute !important;
+	left: 0 !important;
+}
+.slider-safe-sub-heading.ls-layer {
+	position: absolute !important;
+	top:-51px !important;
+	left: 0 !important;
+	width: 500px !important;
+}
+.slider-learning-button.ls-layer {
+	position: absolute !important;
+	top: -10px !important;
+	left: 0 !important;
+}
+.Home-slide-main .ls-container .ls-layers > .ls-hide-on-tablet { 
+    display:block !important;
+    }
+	.slider-learning-button.ls-layer {
+	width: 180px !important;
+	letter-spacing: 0px;
+	height: auto !important;
+	text-align: center;
+	padding: 14px 10px !important;
+}
+.slider-learning-button a, .slider-learning-button a:hover {
+	color: #fff !important;
+	font-size: 14px !important;
+}	
+	.slider-safe-main-heading.ls-layer {
+	font-size: 24px !important;
+}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 766px) 
+{
+.Home-slide-main #layerslider_12, .Home-slide-main .ls-wrapper {
+
+    height: 240px !important;
+
+}
+.slider-safe-main-heading.ls-layer {
+	top: -50px !important;
+	position: absolute !important;
+	left: 0 !important;
+}
+.slider-safe-sub-heading.ls-layer {
+	position: absolute !important;
+	top:-51px !important;
+	left: 0 !important;
+	width: 500px !important;
+}
+.slider-learning-button.ls-layer {
+	position: absolute !important;
+	top: -10px !important;
+	left: 0 !important;
+}
+.Home-slide-main .ls-container .ls-layers > .ls-hide-on-tablet { 
+    display:block !important;
+    }
+.slider-learning-button.ls-layer {
+	width: 180px !important;
+	letter-spacing: 0px;
+	height: auto !important;
+	text-align: center;
+	padding: 14px 10px !important;
+}
+.slider-learning-button a, .slider-learning-button a:hover {
+	color: #fff !important;
+	font-size: 14px !important;
+}	
+	.slider-safe-main-heading.ls-layer {
+	font-size: 24px !important;
+}
+	.leading-safe-heading {
+	font-size: 19px !important;
+}
+	.slider-book-now-button a {
+	padding: 13px 30px;
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	top: 20px !important;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px) 
+{
+.Home-slide-main #layerslider_12, .Home-slide-main .ls-wrapper {
+
+    height: 175px !important;
+
+}
+.slider-safe-main-heading.ls-layer {
+	top: -40px !important;
+	position: absolute !important;
+	left: 0 !important;
+}
+.slider-safe-sub-heading.ls-layer {
+	position: absolute !important;
+	top: -31px !important;
+	left: 0 !important;
+	width: 500px !important;
+	font-size: 14px !important;
+}
+.slider-learning-button.ls-layer {
+	position: absolute !important;
+	top: -10px !important;
+	left: 0 !important;
+}
+.Home-slide-main .ls-container .ls-layers > .ls-hide-on-tablet { 
+    display:block !important; top: 132.75px !important;
+    }
+.slider-learning-button.ls-layer {
+	width: 170px !important;
+	letter-spacing: 0px;
+	height: auto !important;
+	text-align: center;
+	padding: 12px 10px 8px !important;
+}
+.slider-learning-button a, .slider-learning-button a:hover {
+	color: #fff !important;
+	font-size: 14px !important;
+}	
+	.slider-safe-main-heading.ls-layer {
+	font-size: 24px !important;
+}
+		.slider-safe-main-heading.ls-layer {
+	font-size: 24px !important;
+}
+	.leading-safe-heading {
+	font-size: 19px !important;
+}
+	.slider-book-now-button a {
+	padding: 13px 30px;
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	top: 20px !important;
+}
+.Home-slide-main .ls-wrapper.ls-in-out {
+	position: absolute !important;
+	left: 50px !important;
+	top: 6px !important;
+}
+.ls-wrapper .leading-safe-sub-heading.ls-layer {
+	display: none !important;
+}
+	.ls-wrapper .slider-book-now-button.ls-layer {
+	position: absolute !important;
+	top: 20px !important;
+	left: 110px !important;
+}
+}
+
+
+@media only screen and (max-width: 479px) 
+{
+.Home-slide-main #layerslider_12, .Home-slide-main .ls-wrapper {
+
+    height: 117px !important;
+
+}
+.slider-safe-main-heading.ls-layer {
+	top: -18px !important;
+	position: absolute !important;
+	left: -20px !important;
+}
+.slider-safe-sub-heading.ls-layer {
+	position: absolute !important;
+	top: -27px !important;
+	left: -21px !important;
+	width: 500px !important;
+	font-size: 13px !important;
+	word-wrap: break-word !important;
+	line-height: 15px !important; display: none !important;
+}
+.slider-learning-button.ls-layer {
+	position: absolute !important;
+	top: -10px !important;
+	left: -20px !important;
+}
+.Home-slide-main .ls-container .ls-layers > .ls-hide-on-tablet {
+	display: block !important;
+	top: 76.75px !important;
+}
+.slider-learning-button.ls-layer {
+	width: 170px !important;
+	letter-spacing: 0px;
+	height: auto !important;
+	text-align: center;
+	padding: 12px 10px 8px !important;
+}
+.slider-learning-button a, .slider-learning-button a:hover {
+	color: #fff !important;
+	font-size: 14px !important;
+}	
+.slider-safe-main-heading.ls-layer {
+	font-size: 19px !important;
+}
+		.leading-safe-heading {
+	font-size: 11px !important;
+}
+.slider-book-now-button a {
+	padding: 10px 25px;
+	font-size: 11px;
+	color: #fff;
+	position: absolute;
+	top: 6px !important;
+	left: -30px !important;
+}
+.Home-slide-main .ls-wrapper.ls-in-out {
+	position: absolute !important;
+	left: 10px !important;
+	top: 0px !important;
+}
+.ls-wrapper .leading-safe-sub-heading.ls-layer {
+	display: none !important;
+}
+	.ls-wrapper .slider-book-now-button.ls-layer {
+	position: absolute !important;
+	top: 20px !important;
+	left: 110px !important;
+}
+}
+#mfesecure-ts-image {
+    display: none !important;
+}
+
+
